@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" /> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>大品牌正当红</title>
+
+    <script src="./js/fontSize.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+   
+
+    <!-- <link crossorigin="anonymous" integrity="sha384-vo50hXtn++/P8/rFjBxcsOVc14cJi9ibeQ96ujWvPfEmiojAoHF+bt7cOFv4wkHe" href="https://lib.baomitu.com/Swiper/3.4.2/css/swiper.min.css" rel="stylesheet">
+    <script crossorigin="anonymous" integrity="sha384-sDrARk+KBYvP1/Kq29RQa0VlkDiIFdrn0qG9H9ao9MbX489pSjAXQZ6GlijuoPUD" src="https://lib.baomitu.com/Swiper/5.3.7/js/swiper.min.js"></script> -->
+
+
+</head>
+<body>
+    <audio autoplay id='BGM' loop="loop" controls="controls">
+      <source src="./music/music.mp3" type="audio/mpeg">
+    </audio>
+
+     <audio  id='keys' controls="controls">
+        <source src="./music/keys.wav" type="audio/mpeg">
+     </audio>
+
+     <audio  id='dayin' controls="controls">
+        <source src="./music/dayin.mp3" type="audio/mpeg">
+     </audio>
+
+     <audio  id='changes' controls="controls">
+        <source src="./music/change.mp3" type="audio/mpeg">
+     </audio>
+
+     
+
+    <!-- <div class="swiper-container ">
+        <div class="swiper-wrapper">
+            
+          <div class="swiper-slide " >
+                <div class="oneScreen">
+                    <img src="./img/bg.png" alt="" class="bgImg">     
+                    <div class="bgImg"></div>
+                    <img src="./img/bgColor.png" alt="" class="oneScreenBgColor"> 
+                     <img src="./img/iT.png" alt="" class="indexTitle">
+
+                    <img src="./img/say1.png" alt="" class="sayClass_left"> 
+                    <img src="./img/say2.png" alt="" class="sayClass_right"> 
+                    <img src="./img/go.png" alt="" class="go"> 
+
+                    <div class="sayClass_left"></div>
+                    <div class="sayClass_right"></div>
+                    <div class="go"></div> 
+                    <div class="scenery"></div>
+                </div>
+          </div>
+
+        <div class="swiper-slide">
+            <div class="twoScreen">
+                <img src="./img/twoBg.png" alt="" class="twoScreenImg">
+                <div class="shoopListBox">
+
+                </div>
+            </div>
+        </div>
+
+        </div>
+      </div> -->
+         
+<div class="twoLow" style="display: none;">
+    <div class="oneScreen"  >
+        <img src="./img/men750.png" alt="" class="bgImg">     
+        <img src="./img/yun.png" alt="" class="yun">     
+        <!-- <div class="bgImg"></div> -->
+        <!-- <img src="./img/bgColor.png" alt="" class="oneScreenBgColor">  -->
+        <img src="./img/iT.png" alt="" class="indexTitle">
+        <img src="./img/sun.png" alt="" class="sun">
+
+        <img src="./img/say1.png" alt="" class="sayClass_left"> 
+        <img src="./img/say2.png" alt="" class="sayClass_right"> 
+        <img src="./img/go.png" alt="" class="go"> 
+
+        <div class="sayClass_left"></div>
+        <div class="sayClass_right"></div>
+        <div class="go"></div> 
+        <div class="scenery"></div>
+    </div>
+
+      
+    <div class="twoScreen" style="display: none;">
+        <!-- <img  alt="" class="imgFu" src="./img/longImg.png"> -->
+        <img src="./img/tops.png" alt="" class="twoScreenImg">
+        <img src="./img/bots.png" alt="" class="botScreenImg">
+        <div class="absoluteModel"></div>
+        <div class="modelImgs">
+            <div class="listImgBox"></div>
+            <div class="silder"></div>
+        </div>
+        <div class="shoopListBox">
+            <div class="longImg">
+                <div class="top_1" data-imgName='top_1' >百雀羚</div>
+                <div class="top_2" data-imgName='top_2'>飞鸽</div>
+                <div class="top_3" data-imgName='top_3'>蝴蝶牌</div>
+                <div class="top_4" data-imgName='top_4'>同仁堂</div>
+                <div class="top_5" data-imgName='top_5'>恒源祥</div>
+                <div class="top_6" data-imgName='top_6'>五芳斋</div>
+
+                <div class="top_7 allTh" data-imgName='top_7'>回力</div>
+                <div class="top_8 allTh" data-imgName='top_8'>雕牌</div>
+                <div class="top_9 allTh" data-imgName='top_9'>超能</div>
+
+                <div class="top_10 allrl" data-imgName='top_10'>儿童霜</div>
+                <div class="top_11 allrl" data-imgName='top_11'>飞亚达</div>
+                <div class="top_12 allrl" data-imgName='top_12'>完美日记</div>
+                <div class="top_13 allrl" data-imgName='top_13'>相宜本草</div>
+
+                <div class="top_14 allTKap"   data-imgName='top_14'>纯棉柔巾</div>
+                <div class="top_14_1 allTKap" data-imgName='top_14'>纯棉柔巾</div>
+
+                <div class="top_15 allTKap"   data-imgName='top_15'>立白洗洁精</div>
+
+                <div class="top_16 allTKap"   data-imgName='top_16'>金鹿蚊香</div>
+                <div class="top_17 allTKap"   data-imgName='top_17'>安踏</div>
+
+                <div class="top_18 all_MI"   data-imgName='top_18'>小米</div>
+                <div class="top_19 all_MI"   data-imgName='top_19'>华为</div>
+                <div class="top_20 all_MI"   data-imgName='top_20'>海尔</div>
+                <div class="top_21 TV">
+                     <h3></h3>
+                    <p></p>
+                </div>
+                <div class="top_21_1" data-imgName='top_21'>TCL</div>
+                <div class="top_22"   data-imgName='top_22'>商品宅配</div>
+                <div class="top_23"   data-imgName='top_23'>红星美凯龙</div>
+                <div class="top_24"   data-imgName='top_24'>抗菌大理石</div>
+                <div class="top_25"   data-imgName='top_25'>三棵树BB漆</div>
+                <div class="top_26"   data-imgName='top_26'>帅康抽烟机</div>
+                <div class="top_27"   data-imgName='top_27'>小刀电动车</div>
+                <div class="top_28"   data-imgName='top_28'>大白兔</div>
+                <div class="top_29"   data-imgName='top_29'>喜茶</div>
+                <div class="top_30"   data-imgName='top_30'>雪花啤酒</div>
+                <div class="top_31"   data-imgName='top_31'>国缤茶</div>
+                <div class="top_32"   data-imgName='top_32'>八马茶业</div>
+                <div class="top_33"   data-imgName='top_33'>贝因美爱加</div>
+                <div class="top_34"   data-imgName='top_34'>热咳喘颗粒</div>
+
+                <div class="top_35 allWir" data-imgName='top_35'>北冰洋</div>
+                <div class="top_36 allWir" data-imgName='top_36'>今麦郎</div>
+                <div class="top_37 allWir" data-imgName='top_37'>汇源</div>
+                <div class="top_38 allWir" data-imgName='top_38'>茅台</div>
+                <div class="top_39 allWir" data-imgName='top_39'>王茅</div>
+                <div class="top_40 allWir" data-imgName='top_40'>玉冰烧</div>
+
+            </div>
+
+                <!-- <img src="./img/longImg.png" alt="" class="longImg"   id="img1"> -->
+        </div>
+        <img src="./img/end.png" alt="" class="end">
+    </div>
+</div>
+
+<div class="load">
+    <!-- <p>验证出票中……</p> -->
+    <img src="./img/load.png" alt="">
+</div>
+<!--检验出票load-->
+<div class="piao_loading" style="display:none">
+    <div class="piao_imgs">
+        <img src="./img/dayin.png" alt="">
+        <p>检验出票中</p>
+        <p>......</p>
+        <div class="graph">
+             <strong id="bar" style="width: 0%;">0%</strong>
+        </div>
+    </div>
+</div>
+
+<!---海报--->
+    <div class="CanvasHtml"  id="CanvasHt"  style="display: none;">
+       
+            <div class="postBox">
+                <div class="userTop">
+                    <div class="userInfo">
+                        <img src="./img/bgColor.png" alt="">
+                        <p>用户微信名</p>
+                    </div>
+                    <div class="userDesignation">
+                        <h3>官方认证</h3>
+                        <h1></h1>
+                        <div class="userLevel">
+                            <span>青春指数</span>
+                            <div class="startClass"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="biBg"></div> -->
+                <div class="textCom">
+                    <div class="levelText"></div>
+                    <h3 class="tes"></h3>
+                    <img src="./img/topLine.png" alt="" class="topLines">
+                </div>
+                <!---选择的商品-->
+                <div class="listShoop">
+                    <div class="changList"> </div>
+                    <div class="morePost">
+                        <p class="date"></p>
+                        <img src="./img/botLine.png" alt="" class="topLines">
+                        <div class="footer">
+                            <div>
+                                <img src="./img/qr.png" alt="">
+                            </div>
+                            <h3>无论哪个年龄阶段 </br> made in China都应该成为标配</h3>
+                            <img src="./img/logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- <img src="./img/Canvasbots.png" alt="" class="dasder"> -->
+    
+            </div>
+        
+        
+        <!-- <img src="./img/Canvasbots.png" alt=""  class="dasder" > -->
+    </div>
+    
+
+
+
+
+</body>
+<script src="./js/jq.js"></script>
+<script src="./js/html2canvas.min.js"></script>
+<script src="./js/Canvas2Image.js"></script>
+<script src="./js/jweixin-1.0.0.js"></script>
+<script src="./js/chomoo-weixin.js"></script>
+
+<!-- <script src="./js/jqmeter.min.js"></script> -->
+<script>   
+
+//BGM
+document.addEventListener('DOMContentLoaded', function () {
+    function audioAutoPlay() {
+        var  audioB= $("#BGM")[0];
+             audioB.volume = 0.2
+            //  audioB.play();
+             $(".twoLow").show()
+             $(".load").hide()
+          document.addEventListener("WeixinJSBridgeReady", function () {
+           $(".twoLow").show()
+           $(".load").hide()
+           audioB.play();
+           
+        }, false);
+    }
+    audioAutoPlay();
+});
+
+var ua = navigator.userAgent.toLowerCase();
+
+    chomoo.projectid = "daguo202005"; //项目ID
+    chomoo.appid = "wxe893bfa0b4fdf4cc"; //wxe893bfa0b4fdf4cc   wx663b7bc7d5005b26
+    chomoo.component_appid = "wxcbca8b69f0a8770a";
+    chomoo.authMode = authMode.DEBUG; //授权方式，BASE隐式授权，USERINFO显示授权，DEBUG调试模式（必需手动设置openid参数）
+    chomoo.isComponent = true; //采用Component授权方式
+    chomoo.init(); //调用初始化方法
+
+    chomoo.wxJsReady(function() {
+        //分享内容对象
+        var shareModel = {
+            imgUrl: "http://h6.qiaomukeji.com/202005/DaGuo202005/v1/img/logo.png",
+            lineLink: "https://ws.qiaomukeji.com/project/?proId=DaGuo202005",
+            shareTitle: "大品牌正当红",
+            descContent: "你用过的品牌出卖了你的年龄"
+            };
+            chomoo.setShare(shareModel, function() {
+            console.log("分享成功回调");
+            tongji("share")
+            });
+            chomoo.setShareTimeline(shareModel, function() {
+            console.log("分享朋友圈成功回调");
+            tongji("sharetimeline")
+        });
+    });
+
+//授权
+
+  function getPara(_key) {
+    var reg = new RegExp("(^|&)" + _key + "=([^&]*)(&|$)");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) return unescape(r[2]);
+    return null;
+  }
+    //在微信中打开
+
+    var t_skey = getPara("skey") || 'chomoo_test_001';
+
+    if (!t_skey) {
+      location.href = "https://ws.qiaomukeji.com/project/?proId=DaGuo202005";
+    }
+
+    var t_userApi =
+      "https://ws.qiaomukeji.com/users/login?skey=" + t_skey;
+    $.get(t_userApi, _res => {
+      if (_res["code"] != 0) {
+        location.href =
+          "https://ws.qiaomukeji.com/project/?proId=DaGuo202005";
+        return;
+      }
+  
+      
+      $(".userInfo img").attr('src',_res.user.avatar)
+      $(".userInfo p").html(_res.user.name)
+
+      window["name"] = _res["user"]["name"];
+    });
+
+
+    //取消alert标题
+    (function(){
+        window.alert = function(name){
+            var iframe = document.createElement("IFRAME");
+            iframe.style.display="none";
+            iframe.setAttribute("src", 'data:text/plain');
+            document.documentElement.appendChild(iframe);
+            window.frames[0].window.alert(name);
+            iframe.parentNode.removeChild(iframe);
+        }
+    })();
+
+    // var windowHeight =  $("body").height()
+    // alert(windowHeight,"windowHeight")
+    // $(".shoopListBox").css({
+    //     height:(windowHeight / 2.5 ) / 75 +'rem'
+    // })
+    //    var mySwiper = new Swiper('.swiper-container',{
+    //         loop : false,
+    //         direction : 'vertical',
+    //         effect : 'fade',
+    //         fade: {
+    //         crossFade: false,
+    //         },
+
+    //         on: {
+    //             touchEnd: function(e){
+    //                if(this.activeIndex === 1){
+    //                 $('.sayClass_left').css({ left: '0vw',transition: 'all 2s'})
+    //                 $('.sayClass_right').css({ right: '0vw',transition: 'all 2s'})
+    //                 $('.indexTitle').css({ top: '0.6rem',transition: 'all 2s'})
+    //                }
+    //             },
+    //         },
+            
+    //     })
+
+
+
+//获取当前时间
+var myDate = new Date;
+    var year = myDate.getFullYear(); //获取当前年
+    var mon = myDate.getMonth() + 1; //获取当前月
+    var date = myDate.getDate(); //获取当前日
+    var h = myDate.getHours() < 10 ? '0'+ myDate.getHours() : myDate.getHours();//获取当前小时数(0-23)
+    var m = myDate.getMinutes() < 10 ? '0' + myDate.getMinutes(): myDate.getMinutes();//获取当前分钟数(0-59)
+
+    $(".date").html('出票日期：' + year + "/" + mon + "/" + date + "/" + h +':'+m)
+
+  //根据选择的商品数量切换内容  
+  function varStart(index){
+    var biaHtml = ``
+    var is = index == 2 ? 4 :index ==3 ? 3 : 2
+    var title = index===2 ? '国货小白': index==3 ?'国货青年' : '国货老手';
+    var biaArr_1 = ['任性','有主见','省钱小能手','好奇宝宝','耿直胆大'];
+    var biaArr_2 = ['独具慧眼','时尚新潮','会玩儿','绩优股','理想情人'];
+    var biaArr_3 = ['情怀至上','有魄力','专一顾家','出类拔萃','高情商'];
+
+    var bia  = index===2 ? biaArr_1: index==3 ? biaArr_2 : biaArr_3;
+
+    var txt   = index===2 ? '青春洋溢的你，还有大把时光支持国货哦！': index==3 ?'“老大不小”了，但追逐国潮的脚步从未停止！' : '时光荏苒，不知不觉国货早已融入了你的生活';
+        for(let i =0; i<=is;i++){
+            let starImgs = new Image; //星星图片
+            starImgs.src = './img/start.png'
+            $(".startClass").append(starImgs)
+        }
+        //循环标签
+        $(".userDesignation h1").html(title)
+        $.each(bia,function(index,val){
+            biaHtml += `<div class='baiBgs'>${val}</div>`
+        })
+        
+        $('.levelText').append(biaHtml)
+        $(".tes").html(txt)
+}
+
+//选择完商品
+var imgSrcArr = new Array(); //选择的图片数组 
+
+$(".end").click(function(){
+    $("#keys")[0].play(function(){
+        $("#keys")[0].pause()
+        $("#keys")[0].load();
+    })
+    $("#keys")[0].volume = 1
+//选择的商品
+    $(".listImgBox .imgCt").each(function(){
+        var imgSrc = $(this).children('img').attr('src');
+
+        imgSrcArr.push(imgSrc);
+
+        var htmls =  `<div>
+                        <img src='${imgSrc}'>
+                        <p>${$(this).children('p').text()}</p>
+                    </div>`
+
+        $(".changList").append(htmls)
+
+    })
+    
+    if(imgSrcArr.length<1){
+        alert('请至少选择一个商品')
+        return
+    }
+    
+    $(this).slideUp(function(){
+        $(".twoLow").fadeOut();
+    })
+   
+    if(imgSrcArr.length < 9){
+        $(".morePost").addClass('morePosActive')
+    }
+    if(imgSrcArr.length < 10){
+        varStart(2)
+    }else if(10 <= imgSrcArr.length && imgSrcArr.length <= 25){
+        varStart(3)
+    }else if(26 < imgSrcArr.length){
+        varStart(4)
+    }
+
+    $(".piao_loading").fadeIn();
+
+    $("#dayin")[0].play();
+
+var htmls_silder = document.getElementById('bar')
+
+var aa = setInterval(function(){
+    
+    htmls_silder.style.width = parseInt(htmls_silder.style.width) + 1 + "%"; 
+    htmls_silder.innerHTML = htmls_silder.style.width; 
+    if(htmls_silder.style.width == "100%"){ 
+         clearInterval(aa); 
+         $(".piao_loading").hide();
+         $(".CanvasHtml").show();
+         $("#dayin")[0].pause();
+         $("#dayin")[0].load();
+
+         var canvasDom = $('#CanvasHt');
+        var canvasDomWidth = canvasDom.width();    
+        var canvasDomHeight = imgSrcArr.length <= 8 ? $(".CanvasHtml").height() : $(".listShoop").height() + $('.listShoop').offset().top
+
+            window.pageYOffset = 0;
+            document.documentElement.scrollTop = 0
+            document.body.scrollTop = 0
+
+            var canvasNew = document.createElement("canvas"); //创建一个canvas节点
+            var scale = 2; //定义任意放大倍数 支持小数
+            canvasNew.width = canvasDomWidth * scale; //定义canvas 宽度 * 缩放
+            canvasNew.height = canvasDomHeight * scale; //定义canvas高度 *缩放
+            canvasNew.getContext("2d").scale(scale, scale); //获取context,设置scale 
+    
+        var opts = {
+            scale: 1, // 添加的scale 参数
+            canvas: canvasNew, //自定义 canvas
+            height:  canvasDomHeight,
+            width: canvasDomWidth,
+            useCORS: true // 【重要】开启跨域配置
+        };
+
+
+        
+
+        html2canvas(canvasDom[0], opts).then(function(canvas){
+            console.log(canvas,"imgPng")
+
+         var context = canvas.getContext('2d');
+        // 【重要】关闭抗锯齿
+        context.mozImageSmoothingEnabled = false;
+        context.webkitImageSmoothingEnabled = false;
+        context.msImageSmoothingEnabled = false;
+        context.imageSmoothingEnabled = false;
+        
+        // 【重要】默认转化的格式为png,也可设置为其他格式
+        var imgPng = Canvas2Image.convertToJPEG(canvas, canvas.width, canvas.height);
+
+   
+        $(imgPng).css({
+            "width": canvas.width / 2 + "px",
+            "height": canvas.height / 2 + "px",
+        }).addClass('canvasImgsBotm')
+
+
+            // url = canvas.toDataURL('image/png', 1); //将图片转为base64, 0-1 表示清晰度。默认为 image/png 
+            
+
+            var style = document.styleSheets[0];
+      
+            
+            // var CanvasImgs = `<img src='${url}' class='canvasImgsBotm'>`;
+                // console.log(canvasDomHeight,"canvasDomHeight")
+
+                style.insertRule(
+                   `@keyframes canvasImgsBotm { 0% {transform: translateY(${canvasDomHeight}px);opacity: 0;bottom: initial;} 100% { transform: translateY(0);opacity: 1; top: 0;}}`
+                )
+                
+            //  $(".CanvasHtml").after(CanvasImgs)
+
+             $(".CanvasHtml").after(imgPng)
+            // alert('长按屏幕保存到相册')
+        })
+      
+
+    }
+},50);
+
+
+    
+    
+
+    
+
+
+
+})
+
+
+
+
+ //TV文字
+    var index=0;
+    var word= 'XESS旋转智屏幕';
+  
+
+    function type(){
+       
+        if(index == word.length+1){
+            index = 0
+        }
+        $(".TV h3").html('TCL')
+        $(".TV p").html(word.substring(0,index++))
+    }
+
+    setInterval(type, 800);
+   
+//立即验证
+        $(".go").click(function(){
+     
+            $("#keys")[0].play(function(){
+                $("#keys")[0].pause()
+                $("#keys")[0].load();
+            })
+            $("#keys")[0].volume = 1
+          
+            $(this).slideUp()
+            $(".scenery").addClass('linerActive')
+            $(".bgImg").addClass('bgImgActive');
+            $('.sayClass_left').css({ left: '-90vw',transition: 'all 2s'})
+            $('.sayClass_right').css({ right: '-90vw',transition: 'all 2s'})
+            $('.indexTitle').css({ top: '-90vw',transition: 'all 2s'})
+            
+            
+            $(".oneScreen").fadeOut(1800,function(){
+                 $(".twoScreen").fadeIn();
+                 $(".bgImg").removeClass('bgImgActive');
+                 $(".scenery").removeClass('linerActive')
+            });
+            
+            
+        })
+//显示选择的商品
+$(".absoluteModel").click(function(){
+    $("#keys")[0].play(function(){
+        $("#keys")[0].pause()
+        $("#keys")[0].load();
+    })
+    $("#keys")[0].volume = 1
+
+    $(".modelImgs").stop().slideToggle();
+})       
+
+$(".silder").click(function(){
+    $(".modelImgs").slideUp()
+}) 
+
+//选择商品
+$("[data-imgName^='top']").click(function(e){
+
+    $("#changes")[0].play(function(){
+        $("#changes")[0].pause()
+        $("#changes")[0].load();
+    })
+
+    $("#changes")[0].volume = 1
+
+
+    var changeProName = $(this).text();
+    var img = e.target.dataset.imgname;
+
+    var imgType  = img +'.jpg';
+
+    var clickType = e.target.dataset.type || 'true';
+  
+    var className = e.target.className;
+
+    var imgSrc = './img/40_icon/' + imgType
+    var imgHtml = `<img src='${imgSrc}' data-imgType='${img}'>`
+
+    var htmls =  `<div data-imgType='${img}' class='imgCt'>
+                    <img src='${imgSrc}' data-imgType='${img}'>
+                    <p>${changeProName}</p>
+                 </div>`
+    
+
+    if(clickType=='true'){
+        $(this).attr('data-type','false')
+        $(".listImgBox").append(htmls)
+    }else{
+        $(this).attr('data-type','true')
+        $("[data-imgType^="+img+"]").remove()
+    }
+
+})
+//删除选择的列表
+$("body").on('click','.listImgBox .imgCt',function(e){
+    var imgtype = e.target.dataset.imgtype;
+    $("[data-imgname^="+imgtype+"]").attr('data-type','true')
+    $(this).remove()
+})
+</script>
+    
+
+</html>
